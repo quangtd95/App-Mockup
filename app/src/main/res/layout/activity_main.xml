@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_transparent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    tools:context="td95.quang.appmockup.ui.activity.MainActivity">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <td95.quang.appmockup.ui.view.CustomButton
+        android:id="@+id/btnFbLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/button_rounded_fb"
+        android:padding="15dp"
+        android:text="@string/mainBtnFbLogin"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"/>
+
+    <td95.quang.appmockup.ui.view.CustomButton
+        android:id="@+id/btnGgLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/button_rounded_gg"
+        android:padding="15dp"
+        android:text="@string/mainBtnGgLogin"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"/>
+
+
+</LinearLayout>

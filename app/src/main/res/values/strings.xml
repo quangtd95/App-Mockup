@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">App Mock Up</string>
+    <string name="mainBtnFbLogin">FACEBOOK LOGIN</string>
+    <string name="mainBtnGgLogin">GOOGLE LOGIN</string>
+    <string name="title_activity_home">Map</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_info">info</string>
+    <string name="title_shopping">play</string>
+    <string name="title_profile">profile</string>
+    <string name="url_base">http://125.212.253.30:2017/</string>
+    <string name="facebook_app_id">106735859985766</string>
+    <string name="fb_login_protocol_scheme">fb106735859985766</string>
+    <string name="latest_news">Latest News</string>
+    <string name="hall_of_fame">Hall of Fame</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="news">NEWS</string>
+    <string name="news_detail">NEWS DETAIL</string>
+</resources>

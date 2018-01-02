@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#bf9000">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <td95.quang.appmockup.ui.view.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:gravity="center_vertical"
+                android:text="@string/news_detail"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <td95.quang.appmockup.ui.view.CustomTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TH TrueMilk sponsor for this game, so happy."
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <td95.quang.appmockup.ui.view.CustomTextView
+                android:id="@+id/tvTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14pm 24/7/2017"
+                android:textColor="#ff0000"/>
+
+            <ImageView
+                android:id="@+id/imgAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/avatar"
+                />
+
+            <td95.quang.appmockup.ui.view.CustomTextView
+                android:id="@+id/tvDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TH TrueMilk sponsor for this game.
+TH TrueMilk sponsor for this game.
+TH TrueMilk sponsor for this game.
+TH TrueMilk sponsor for this game.
+TH TrueMilk sponsor for this game.
+"/>
+
+            <td95.quang.appmockup.ui.view.CustomButton
+                android:id="@+id/btnExit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0070c0"
+                android:text="EXIT"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
